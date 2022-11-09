@@ -1,38 +1,74 @@
 /* style.css */
 
-body {display:flex;
-flex-direction:column}
 
+.header,
+.first,
+.second
+.inspire,
+.footer {display:flex;
+}
 
-
-header .logo {font-size:20px;}
-
-
-
-.div1 {font-size:40px;
-    display:inline;}
-
-.head .title {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8}
-
-header header {
-font-size: 24px;
-color:#E5E7EB}
-
-.second-boxes {
-font-size:45px;
-padding: 0px;
-border: 3px solid #3882F6;}
-
-body .second-boxtext{
-    display: block;
+.header {gap: 200px;
+    align-items: center;
+    color:#E5E7EB;
 }
 
 
 
+.header-logo {
+    font-size:24px;
+}
 
-.first-button {background-color:#3882F6}
+
+.first-left{flex: 1;}
+
+.first-right{flex:1;}
+
+.header,
+.first {background-color:#1F2937;}
+
+.inspire {background-color:#E5E7Eb}
+
+.second,
+.inspire,
+.footer {color:#1f2937
+}
+
+
+.first-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.first-img {Height: 300px;
+width: 400px;
+}
+
+.first-subtext{display:inline;
+}
+
+.first-button {background-color:#3882F6
+}
+
+.second-boxes {
+font-size:45px;
+padding: 0px;
+border: 3px solid #3882F6;
+display:column;
+}
+
+ .second-boxtext{
+    display: flex;
+    flex-direction:column;
+}
+
+.inspire-quote {font-size: 40px;
+}
+
+.inspire-quoter {display:flex;
+flex-direction: column;}
+/* above needs editing? */
+
 
 
