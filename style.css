@@ -1,4 +1,38 @@
 /* style.css */
 
-.header{font-size:20px;}
+body {display:flex;
+flex-direction:column}
+
+
+
+header .logo {font-size:20px;}
+
+
+
+.div1 {font-size:40px;
+    display:inline;}
+
+.head .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8}
+
+header header {
+font-size: 24px;
+color:#E5E7EB}
+
+.second-boxes {
+font-size:45px;
+padding: 0px;
+border: 3px solid #3882F6;}
+
+body .second-boxtext{
+    display: block;
+}
+
+
+
+
+.first-button {background-color:#3882F6}
+
 
