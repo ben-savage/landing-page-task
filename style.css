@@ -2,27 +2,46 @@
 
 
 .header,
+.header-right,
 .first,
-.second
+.second-body,
 .inspire,
-.footer {display:flex;
+.footer {display:flex
 }
 
-.header {gap: 200px;
+.second-body-one,
+.second-body-two,
+.second-body-three,
+.second-body-four,
+.inspire {display:flex;
+flex-direction:column;
+}
+
+.body { margin:0px;}
+
+.header {gap: 100px;
     align-items: center;
+    justify-content: Center;
     color:#E5E7EB;
 }
 
+.header-left,
+.header-right {flex: 1;}
 
 
 .header-logo {
     font-size:24px;
 }
+.header-link {flex:1;}
 
+.first-button{height:150px;
+    width:150px;
 
+}
 .first-left{flex: 1;}
 
 .first-right{flex:1;}
+
 
 .header,
 .first {background-color:#1F2937;}
@@ -58,17 +77,19 @@ border: 3px solid #3882F6;
 display:column;
 }
 
- .second-boxtext{
-    display: flex;
-    flex-direction:column;
+.second-body{
+    padding:10px;
 }
+.second-body-one,
+.second-body-two,
+.second-body-three,
+.second-body-four {flex:1;}
+.second-body {align-items:center;
+justify-content:center;
+flex: 1;}
+
 
 .inspire-quote {font-size: 40px;
 }
 
-.inspire-quoter {display:flex;
-flex-direction: column;}
-/* above needs editing? */
-
-
-
+.footer {justify-content:end;}
