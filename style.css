@@ -15,9 +15,11 @@
 .second-body-four,
 .inspire {display:flex;
 flex-direction:column;
+padding-left: 20px; 
+padding-right: 20px;
 }
 
-.body { margin:0px;}
+.body { margin: auto 0px;}
 
 .header {gap: 100px;
     align-items: center;
@@ -34,62 +36,91 @@ flex-direction:column;
 }
 .header-link {flex:1;}
 
-.first-button{height:150px;
+.first-button{
+    height:30px;
     width:150px;
-
+    background-color:#3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: #E5E7Eb
 }
 .first-left{flex: 1;}
 
 .first-right{flex:1;}
 
-
 .header,
-.first {background-color:#1F2937;}
+.first {background-color:#1F2937; padding-left: 150px; padding-right: 150px;}
 
 .inspire {background-color:#E5E7Eb}
 
 .second,
 .inspire,
-.footer {color:#1f2937
+.footer {
+    color:#1f2937; 
+    padding-left: 150px; 
+    padding-right: 150px;
+    padding-top: 100px; 
+    padding-bottom: 100px;
 }
 
 
 .first-title {
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding-right: 200px;
+    
 }
 
-.first-img {Height: 300px;
-width: 400px;
+.first-img {
+    height: 300px;
+    width: 400px;
+    padding-bottom: 30px;
 }
 
-.first-subtext{display:inline;
-}
-
-.first-button {background-color:#3882F6
+.first-subtext
+{
+    color: #F9FAF8;
+    padding-right: 150px;
 }
 
 .second-boxes {
-font-size:45px;
-padding: 0px;
-border: 3px solid #3882F6;
-display:column;
+    font-size:45px;
+    padding: 0px;
+    border: 4px solid #3882F6;
+    display:column;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 25px;
+    text-align: center;
 }
 
+.second-title {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+    font-size:60px;
+}
+.second-boxtext {padding-top: 20px;
+    text-align:center;}
+
 .second-body{
-    padding:10px;
+    padding:50px;
 }
 .second-body-one,
 .second-body-two,
 .second-body-three,
 .second-body-four {flex:1;}
-.second-body {align-items:center;
-justify-content:center;
-flex: 1;}
+.second-body {
+    align-items:center;
+    justify-content:center;
+    flex: 1;
+    
+}
 
 
 .inspire-quote {font-size: 40px;
 }
 
 .footer {justify-content:end;}
+
